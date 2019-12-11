@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/assets/images/texture.jpg");
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.logo {
+    margin: 2em auto;
+    width: 80%;
+    max-width: 1200px;
+    display: block;
+}
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+}
+.content {
+    width: 60%;
+    margin: 0 2em;
+
+    video {
+        width: 100%;
+        margin: 2em 0;
+    }
+}
+
+.sidebar {
+    width: 30%;
+    margin: 0 1em;
+    position: relative;
+
+    video {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    img {
+        width: 100%;
+        margin: 1em 0;
+    }
+}
+
+.best {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em auto;
+    width: 80%;
+    max-width: 1200px;
+
+    
+    marquee {
+        width: 300px;
+        line-height: 50px;
+    }
+
+    video {
+        width: 200px;
+        margin: 0 1em;
+        display: inline-block;
+    }
+
+    .lucky{
+        margin: 0 10px;
+        width: 100px;
+    }
+}
+
+.netscape {
+    width: 100px;
+}
+.eq {
+    width: 20px;
+}
+
+.horse {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top : 0;
+    transform: translateY(-12%);
+}
+
+.sidehorse {
+    width: 100%;
+}
+
+.rel {
+    position: relative;
+}
+
+.music {
+    background-image: url("https://media.giphy.com/media/BgNSCiSx0DvP2/giphy.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    line-height: 3;
+    background-position: 50% 50%;
+    a {
+        color: white !important;
+    }
+}
+
+footer {
+    padding: 3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    table {
+        zoom: 1;
+    }
+}
