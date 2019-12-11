@@ -123,3 +123,28 @@ footer {
         zoom: 1;
     }
 }
+
+.blink {
+    text-align: center;
+    font-size: 2em;
+    color: green;
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+
+  .products {
+      margin: 1em auto;
+      max-width: 1000px;
+      width: 100%;
+      display: block;
+  }
